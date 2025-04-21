@@ -26,6 +26,7 @@ import POMPages.LoginPomPage;
 
 public class Baseclass {
 	// Declaring Globally
+	//Changes done in git 
 
 	Property_Utility pro = new Property_Utility();
 	DataBase_Utility db = new DataBase_Utility();
