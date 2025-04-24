@@ -55,7 +55,7 @@ public class Baseclass {
 	@BeforeClass(groups = { "Smoke", "Regression" })
 	public void beforeClass() throws IOException {
 		Reporter.log("Launch the Browser", true);
-		String Browser = System.getProperty("browser");
+		String Browser = System.getProperty("browser",pro.FetchDataFromPropFile("browser"));
 		if (Browser.equals("chrome")) {
 			driver = new ChromeDriver();
 		} else if (Browser.equals("edge")) {
