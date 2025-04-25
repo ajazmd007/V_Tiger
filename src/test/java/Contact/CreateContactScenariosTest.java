@@ -23,6 +23,7 @@ import junit.framework.Assert;
 
 //Check with the branch
 //Changes made in 3.0
+//Changes to check the Poll Scm in Jenkins
 @Listeners(Listeners_Utility.Listeners.class)
 public class CreateContactScenariosTest extends Baseclass {
 
